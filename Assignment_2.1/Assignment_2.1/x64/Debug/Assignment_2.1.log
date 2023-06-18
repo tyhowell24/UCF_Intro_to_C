@@ -1,0 +1,4 @@
+﻿  howell_tyler_2.1.c
+C:\Users\tshow\OneDrive\Documents\UCF_2023\Intro to C\Assignments\Assignment_2.1\Assignment_2.1\howell_tyler_2.1.c(39,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\tshow\OneDrive\Documents\UCF_2023\Intro to C\Assignments\Assignment_2.1\Assignment_2.1\howell_tyler_2.1.c(117): warning C4716: 'guessNumber': must return a value
+  Assignment_2.1.vcxproj -> C:\Users\tshow\OneDrive\Documents\UCF_2023\Intro to C\Assignments\Assignment_2.1\x64\Debug\Assignment_2.1.exe
