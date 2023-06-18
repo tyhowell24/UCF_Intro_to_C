@@ -13,18 +13,20 @@ int main(void) {
 	// build the arrays for First class seats and econ seats
 	int fc[3];
 	int econ[3];
-
-	for (size_t i = 0; i < 3; ++i) {
-		fc[i] = 0; // set element of array fc to 0
-	}
-
-	for (size_t i = 0; i < 3; ++i) {
-		econ[i] = 0; // set element of array fc to 0
-	}
-
 	int allIn = 0;
+	int pos;
+	int a;
+	int b;
 
 	while (allIn == 0) {
+
+		for (size_t i = 0; i < 3; ++i) {
+			fc[i] = 0; // set element of array fc to 0
+		}
+
+		for (size_t i = 0; i < 3; ++i) {
+			econ[i] = 0; // set element of array fc to 0
+		}
 
 		// build menu and prompt user for choice
 		printf("%s", "Please type 1 for \"first class\"\n");
@@ -33,6 +35,10 @@ int main(void) {
 
 		if (menuChoice == 1) {
 			// Code for first class option
+			}
+			for (size_t i = 0; i < 3; ++i) {
+				printf("%7zu%8d\n", i, fc[i]);
+			}
 		}
 		
 		if (menuChoice == 2) {
