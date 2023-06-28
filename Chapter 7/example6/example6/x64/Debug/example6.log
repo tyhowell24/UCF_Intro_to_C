@@ -1,0 +1,4 @@
+﻿  example6.c
+C:\Users\tyler\OneDrive\Documents\GitHub\UCF_Intro_to_C\New folder\example6\example6\example6.c(5,7): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int (*)[5]'
+C:\Users\tyler\OneDrive\Documents\GitHub\UCF_Intro_to_C\New folder\example6\example6\example6.c(9,7): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int (*)[3][4]'
+  example6.vcxproj -> C:\Users\tyler\OneDrive\Documents\GitHub\UCF_Intro_to_C\New folder\example6\x64\Debug\example6.exe

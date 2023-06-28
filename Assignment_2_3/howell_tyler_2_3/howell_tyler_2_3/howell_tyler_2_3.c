@@ -14,9 +14,6 @@ int main(void) {
 	int fc[3];
 	int econ[3];
 	int allIn = 0;
-	int pos;
-	int a;
-	int b;
 
 	while (allIn == 0) {
 
@@ -35,10 +32,8 @@ int main(void) {
 
 		if (menuChoice == 1) {
 			// Code for first class option
-			}
-			for (size_t i = 0; i < 3; ++i) {
-				printf("%7zu%8d\n", i, fc[i]);
-			}
+			
+			
 		}
 		
 		if (menuChoice == 2) {
